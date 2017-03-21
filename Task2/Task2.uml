@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_HG-cgA49EeeMA55nM4rpww" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_IVgFIA49EeeMA55nM4rpww" name="System"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VNUFEA49EeeMA55nM4rpww" name="Login">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_tsvBUQ49EeeMA55nM4rpww" name="ExtensionPoint1"/>
+    <include xmi:type="uml:Include" xmi:id="_qTTVcA4_EeeMA55nM4rpww" addition="_kGB64A4_EeeMA55nM4rpww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WenU4A49EeeMA55nM4rpww" memberEnd="_Wen78g49EeeMA55nM4rpww _Wen78w49EeeMA55nM4rpww">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Wen78A49EeeMA55nM4rpww" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wen78Q49EeeMA55nM4rpww" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Wen78g49EeeMA55nM4rpww" name="login" type="_VNUFEA49EeeMA55nM4rpww" association="_WenU4A49EeeMA55nM4rpww"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Wen78w49EeeMA55nM4rpww" name="system" type="_IVgFIA49EeeMA55nM4rpww" association="_WenU4A49EeeMA55nM4rpww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_fPhw4A49EeeMA55nM4rpww" name="Search">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_OLnHcA4-EeeMA55nM4rpww" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fPvMQA49EeeMA55nM4rpww" memberEnd="_fPvzUg49EeeMA55nM4rpww _fPvzUw49EeeMA55nM4rpww">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fPvzUA49EeeMA55nM4rpww" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fPvzUQ49EeeMA55nM4rpww" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fPvzUg49EeeMA55nM4rpww" name="usecase1" type="_fPhw4A49EeeMA55nM4rpww" association="_fPvMQA49EeeMA55nM4rpww"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fPvzUw49EeeMA55nM4rpww" name="system" type="_IVgFIA49EeeMA55nM4rpww" association="_fPvMQA49EeeMA55nM4rpww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_pxeFoA49EeeMA55nM4rpww" name="Booking">
+    <extend xmi:type="uml:Extend" xmi:id="_Ss_9EA5AEeeMA55nM4rpww" extendedCase="_DkS4kA5AEeeMA55nM4rpww" extensionLocation="_Ss_9EQ5AEeeMA55nM4rpww"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_H2ne0A4_EeeMA55nM4rpww" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_gOfBkQ4_EeeMA55nM4rpww" name="ExtensionPoint2"/>
+    <include xmi:type="uml:Include" xmi:id="_1Oma0A4-EeeMA55nM4rpww" addition="_VNUFEA49EeeMA55nM4rpww"/>
+    <include xmi:type="uml:Include" xmi:id="_yWCc0A4_EeeMA55nM4rpww" addition="_yVwI8A4_EeeMA55nM4rpww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_z607QA49EeeMA55nM4rpww" name="Enter pick-up and drop-off location/dates and age"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_KWsEUA4-EeeMA55nM4rpww" name="Retrieve details and prices and show them">
+    <extend xmi:type="uml:Extend" xmi:id="_OLmgYA4-EeeMA55nM4rpww" extendedCase="_fPhw4A49EeeMA55nM4rpww" extensionLocation="_OLnHcA4-EeeMA55nM4rpww"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_m3BRQQ4-EeeMA55nM4rpww" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_NfvOAA5AEeeMA55nM4rpww" name="ExtensionPoint2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_FMeMwA4_EeeMA55nM4rpww" name="Check transaction details">
+    <extend xmi:type="uml:Extend" xmi:id="_H2m3wA4_EeeMA55nM4rpww" extendedCase="_pxeFoA49EeeMA55nM4rpww" extensionLocation="_H2ne0A4_EeeMA55nM4rpww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_adU7QA4_EeeMA55nM4rpww" name="Additional options and extras">
+    <extend xmi:type="uml:Extend" xmi:id="_gOfBkA4_EeeMA55nM4rpww" extendedCase="_pxeFoA49EeeMA55nM4rpww" extensionLocation="_gOfBkQ4_EeeMA55nM4rpww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_kGB64A4_EeeMA55nM4rpww" name="Collect user/payment information"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_yVwI8A4_EeeMA55nM4rpww" name="Check user/payment information">
+    <include xmi:type="uml:Include" xmi:id="_ZOhJUA5AEeeMA55nM4rpww" addition="_Viu0EA5AEeeMA55nM4rpww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_DkS4kA5AEeeMA55nM4rpww" name="Request quote for car">
+    <extend xmi:type="uml:Extend" xmi:id="_Nfum8A5AEeeMA55nM4rpww" extendedCase="_KWsEUA4-EeeMA55nM4rpww" extensionLocation="_NfvOAA5AEeeMA55nM4rpww"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Ss_9EQ5AEeeMA55nM4rpww" name="ExtensionPoint1"/>
+    <include xmi:type="uml:Include" xmi:id="_MgFu4A5AEeeMA55nM4rpww" addition="_z607QA49EeeMA55nM4rpww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Viu0EA5AEeeMA55nM4rpww" name="Send confirmation email"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_i4DSkA5EEeeMA55nM4rpww" memberEnd="_i4DSkw5EEeeMA55nM4rpww _i4D5oA5EEeeMA55nM4rpww">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i4DSkQ5EEeeMA55nM4rpww" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i4DSkg5EEeeMA55nM4rpww" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_i4DSkw5EEeeMA55nM4rpww" name="booking" type="_pxeFoA49EeeMA55nM4rpww" association="_i4DSkA5EEeeMA55nM4rpww"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_i4D5oA5EEeeMA55nM4rpww" name="system" type="_IVgFIA49EeeMA55nM4rpww" association="_i4DSkA5EEeeMA55nM4rpww"/>
+  </packagedElement>
+</uml:Model>

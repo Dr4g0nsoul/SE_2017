@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_tfD_cA5CEeeMA55nM4rpww" name="RootElement">
+  <packagedElement xmi:type="uml:Class" xmi:id="_vHLz0A5CEeeMA55nM4rpww" name="Customer"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_7oq-cA5CEeeMA55nM4rpww" name="Car"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QAOGYA5DEeeMA55nM4rpww" name="Booking"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_WD3D0A5DEeeMA55nM4rpww" name="Location"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_bMETwA5DEeeMA55nM4rpww" name="Quote"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YjTP0A5FEeeMA55nM4rpww" visibility="private" memberEnd="_YjT24g5FEeeMA55nM4rpww _YjT24w5FEeeMA55nM4rpww">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YjT24A5FEeeMA55nM4rpww" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YjT24Q5FEeeMA55nM4rpww" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YjT24w5FEeeMA55nM4rpww" name="customer" type="_vHLz0A5CEeeMA55nM4rpww" association="_YjTP0A5FEeeMA55nM4rpww">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2tJ_UA5FEeeMA55nM4rpww"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2tL0gA5FEeeMA55nM4rpww" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YjT24g5FEeeMA55nM4rpww" name="car" type="_7oq-cA5CEeeMA55nM4rpww" association="_YjTP0A5FEeeMA55nM4rpww">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wbOuQA5FEeeMA55nM4rpww"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wb0kIA5FEeeMA55nM4rpww" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-Nm5AA5FEeeMA55nM4rpww" memberEnd="_-Nm5Aw5FEeeMA55nM4rpww _-NngEA5FEeeMA55nM4rpww">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-Nm5AQ5FEeeMA55nM4rpww" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-Nm5Ag5FEeeMA55nM4rpww" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-NngEA5FEeeMA55nM4rpww" name="quote" type="_bMETwA5DEeeMA55nM4rpww" association="_-Nm5AA5FEeeMA55nM4rpww"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-Nm5Aw5FEeeMA55nM4rpww" name="booking" type="_QAOGYA5DEeeMA55nM4rpww" association="_-Nm5AA5FEeeMA55nM4rpww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_X_pTsA5GEeeMA55nM4rpww" memberEnd="_X_p6wg5GEeeMA55nM4rpww _X_p6ww5GEeeMA55nM4rpww">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_X_p6wA5GEeeMA55nM4rpww" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_X_p6wQ5GEeeMA55nM4rpww" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_X_p6ww5GEeeMA55nM4rpww" name="quote" type="_bMETwA5DEeeMA55nM4rpww" association="_X_pTsA5GEeeMA55nM4rpww">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fu5eYA5GEeeMA55nM4rpww"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fu7TkA5GEeeMA55nM4rpww" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_X_p6wg5GEeeMA55nM4rpww" name="car" type="_7oq-cA5CEeeMA55nM4rpww" association="_X_pTsA5GEeeMA55nM4rpww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_j4QgcA5GEeeMA55nM4rpww" memberEnd="_j4RHgg5GEeeMA55nM4rpww _j4RukA5GEeeMA55nM4rpww">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_j4RHgA5GEeeMA55nM4rpww" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_j4RHgQ5GEeeMA55nM4rpww" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_j4RukA5GEeeMA55nM4rpww" name="car" type="_7oq-cA5CEeeMA55nM4rpww" association="_j4QgcA5GEeeMA55nM4rpww">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lGHasA5GEeeMA55nM4rpww"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lGJP4A5GEeeMA55nM4rpww" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_j4RHgg5GEeeMA55nM4rpww" name="location" type="_WD3D0A5DEeeMA55nM4rpww" association="_j4QgcA5GEeeMA55nM4rpww"/>
+  </packagedElement>
+</uml:Model>

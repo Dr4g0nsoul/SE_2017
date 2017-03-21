@@ -1,2 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ZPLxUA44EeeMA55nM4rpww" name="RootElement"/>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ZPLxUA44EeeMA55nM4rpww" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_1V_OgA45EeeMA55nM4rpww" name="Customer"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_WFMPoA46EeeMA55nM4rpww" name="Rent a car"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Zn4TQA46EeeMA55nM4rpww" memberEnd="_ZovO4A46EeeMA55nM4rpww _Zov18A46EeeMA55nM4rpww">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Zn6vgA46EeeMA55nM4rpww" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Zn6vgQ46EeeMA55nM4rpww" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZovO4A46EeeMA55nM4rpww" name="request a quote" type="_WFMPoA46EeeMA55nM4rpww" association="_Zn4TQA46EeeMA55nM4rpww"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Zov18A46EeeMA55nM4rpww" name="customer" type="_1V_OgA45EeeMA55nM4rpww" association="_Zn4TQA46EeeMA55nM4rpww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_q_kX0A46EeeMA55nM4rpww" name="Search">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ZKTJ8A47EeeMA55nM4rpww" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_wWhY8A47EeeMA55nM4rpww" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Bl4n8Q48EeeMA55nM4rpww" name="ExtensionPoint3"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_bEuZ0A48EeeMA55nM4rpww" name="ExtensionPoint4"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_syGFYA46EeeMA55nM4rpww" memberEnd="_syGscg46EeeMA55nM4rpww _syHTgA46EeeMA55nM4rpww">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_syGscA46EeeMA55nM4rpww" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_syGscQ46EeeMA55nM4rpww" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_syGscg46EeeMA55nM4rpww" name="search for prices" type="_q_kX0A46EeeMA55nM4rpww" association="_syGFYA46EeeMA55nM4rpww"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_syHTgA46EeeMA55nM4rpww" name="customer" type="_1V_OgA45EeeMA55nM4rpww" association="_syGFYA46EeeMA55nM4rpww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_8g4ScA46EeeMA55nM4rpww" name="Request detailed information about vehicle type">
+    <extend xmi:type="uml:Extend" xmi:id="_ZKQGoA47EeeMA55nM4rpww" extendedCase="_q_kX0A46EeeMA55nM4rpww" extensionLocation="_ZKTJ8A47EeeMA55nM4rpww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ivzroA47EeeMA55nM4rpww" name="Booking">
+    <extend xmi:type="uml:Extend" xmi:id="_bEtywA48EeeMA55nM4rpww" extendedCase="_q_kX0A46EeeMA55nM4rpww" extensionLocation="_bEuZ0A48EeeMA55nM4rpww"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_vkaF4Q5DEeeMA55nM4rpww" name="ExtensionPoint1"/>
+    <include xmi:type="uml:Include" xmi:id="_el3lUA48EeeMA55nM4rpww" addition="_TvEa4A48EeeMA55nM4rpww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_204jgA47EeeMA55nM4rpww" name="Extras and additional options">
+    <extend xmi:type="uml:Extend" xmi:id="_vkaF4A5DEeeMA55nM4rpww" extendedCase="_ivzroA47EeeMA55nM4rpww" extensionLocation="_vkaF4Q5DEeeMA55nM4rpww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_TvEa4A48EeeMA55nM4rpww" name="Personal/Payment information"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bzlq8A48EeeMA55nM4rpww" memberEnd="_bzmSAA48EeeMA55nM4rpww _bzmSAQ48EeeMA55nM4rpww">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bzlq8Q48EeeMA55nM4rpww" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bzlq8g48EeeMA55nM4rpww" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bzmSAA48EeeMA55nM4rpww" name="booking" type="_ivzroA47EeeMA55nM4rpww" association="_bzlq8A48EeeMA55nM4rpww"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bzmSAQ48EeeMA55nM4rpww" name="customer" type="_1V_OgA45EeeMA55nM4rpww" association="_bzlq8A48EeeMA55nM4rpww"/>
+  </packagedElement>
+</uml:Model>
