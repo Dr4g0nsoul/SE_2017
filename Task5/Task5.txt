@@ -1,0 +1,11 @@
+Accept Search Request and Display Search Results
+-> enables customer to search a rental vehicle
+Search Request
+customer requests quote for renting a car
+customer enters a pick-up and drop off location
+customer enters pick-up and drop off dates
+customer enters age
+--> all this is needed to get a list of available car types. (search criteria)
+Search Results
+search results include details of vehicle types, price(online booking / telephone booking)
+---> with this info customer is able to request more detailed information about vehicle. (models, seating capacity, luggage capacity) 
