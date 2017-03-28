@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_kS8FUBOsEeewmqmH-uJRjg" name="RootElement">
+  <packagedElement xmi:type="uml:Class" xmi:id="_4Jxs4BOsEeewmqmH-uJRjg" name="Search">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_o2JVUBOtEeewmqmH-uJRjg" name="pickup" visibility="public"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ruVDYBOtEeewmqmH-uJRjg" name="dropoff" visibility="public"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tjrbcBOtEeewmqmH-uJRjg" name="from" visibility="public"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_uycUoBOtEeewmqmH-uJRjg" name="to" visibility="public"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wNbr8BOtEeewmqmH-uJRjg" name="age" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_7zxSYBOsEeewmqmH-uJRjg" name="Booking">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_eqPskBOuEeewmqmH-uJRjg" name="excess_reduction" visibility="public"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mhZPABOuEeewmqmH-uJRjg" name="promotional_code" visibility="public"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sxGSgBOuEeewmqmH-uJRjg" name="protection_waiver" visibility="public"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-msbEBOuEeewmqmH-uJRjg" name="cars" visibility="public"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_H_NCkBOvEeewmqmH-uJRjg" name="extras" visibility="public"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Wom78BOvEeewmqmH-uJRjg" name="personal_information" visibility="public"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cHltIBOvEeewmqmH-uJRjg" name="payment_information" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_GCSU0BOtEeewmqmH-uJRjg" name="Quotation">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_77QTEBOvEeewmqmH-uJRjg" name="quotation" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_HUlDIBOtEeewmqmH-uJRjg" name="Confirmation">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jpZ4wBOvEeewmqmH-uJRjg" name="confirmation_number" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_JL_bQBOuEeewmqmH-uJRjg" informationSource="_4Jxs4BOsEeewmqmH-uJRjg"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_M3v7UBOuEeewmqmH-uJRjg" informationSource="_4Jxs4BOsEeewmqmH-uJRjg" informationTarget="_7zxSYBOsEeewmqmH-uJRjg _GCSU0BOtEeewmqmH-uJRjg _kS8FUBOsEeewmqmH-uJRjg"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_Ug6sIBOuEeewmqmH-uJRjg" informationSource="_GCSU0BOtEeewmqmH-uJRjg" informationTarget="_7zxSYBOsEeewmqmH-uJRjg"/>
+  <packagedElement xmi:type="uml:InformationFlow" xmi:id="_WlFjUBOuEeewmqmH-uJRjg" informationSource="_7zxSYBOsEeewmqmH-uJRjg" informationTarget="_HUlDIBOtEeewmqmH-uJRjg"/>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_iNr-IBOuEeewmqmH-uJRjg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iN29QBOuEeewmqmH-uJRjg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
