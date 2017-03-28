@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_tfD_cA5CEeeMA55nM4rpww" name="RootElement">
+  <packagedElement xmi:type="uml:Class" xmi:id="_vHLz0A5CEeeMA55nM4rpww" name="ECustomer">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_GLMbMBOXEeeGRKy7rMLwEA" name="Name"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ONVssBOXEeeGRKy7rMLwEA" name="DateOfBirth"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_p6V_QBOXEeeGRKy7rMLwEA" name="EMail"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sV8fABOXEeeGRKy7rMLwEA" name="Password"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_7oq-cA5CEeeMA55nM4rpww" name="ECar">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kLXi4BOaEeeGRKy7rMLwEA" name="Name"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QAOGYA5DEeeMA55nM4rpww" name="EBooking">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ixM1gBObEeeGRKy7rMLwEA" name="OrderingNumber"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kc47QBObEeeGRKy7rMLwEA" name="DateOfOrder"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_WD3D0A5DEeeMA55nM4rpww" name="ELocation">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_yXEzoBOaEeeGRKy7rMLwEA" name="isPickupLocation"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_05shYBOaEeeGRKy7rMLwEA" name="isDropoffLocation"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4u7GgBOaEeeGRKy7rMLwEA" name="Age"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_bMETwA5DEeeMA55nM4rpww" name="EQuote">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nh1IYBOaEeeGRKy7rMLwEA" name="Price"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YjTP0A5FEeeMA55nM4rpww" visibility="private" memberEnd="_YjT24g5FEeeMA55nM4rpww _YjT24w5FEeeMA55nM4rpww">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YjT24A5FEeeMA55nM4rpww" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YjT24Q5FEeeMA55nM4rpww" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YjT24w5FEeeMA55nM4rpww" name="customer" type="_vHLz0A5CEeeMA55nM4rpww" association="_YjTP0A5FEeeMA55nM4rpww">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2tJ_UA5FEeeMA55nM4rpww"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2tL0gA5FEeeMA55nM4rpww" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YjT24g5FEeeMA55nM4rpww" name="car" type="_7oq-cA5CEeeMA55nM4rpww" association="_YjTP0A5FEeeMA55nM4rpww">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wbOuQA5FEeeMA55nM4rpww"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wb0kIA5FEeeMA55nM4rpww" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-Nm5AA5FEeeMA55nM4rpww" memberEnd="_-Nm5Aw5FEeeMA55nM4rpww _-NngEA5FEeeMA55nM4rpww">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-Nm5AQ5FEeeMA55nM4rpww" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-Nm5Ag5FEeeMA55nM4rpww" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-NngEA5FEeeMA55nM4rpww" name="quote" type="_bMETwA5DEeeMA55nM4rpww" association="_-Nm5AA5FEeeMA55nM4rpww"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-Nm5Aw5FEeeMA55nM4rpww" name="booking" type="_QAOGYA5DEeeMA55nM4rpww" association="_-Nm5AA5FEeeMA55nM4rpww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_X_pTsA5GEeeMA55nM4rpww" memberEnd="_X_p6wg5GEeeMA55nM4rpww _X_p6ww5GEeeMA55nM4rpww">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_X_p6wA5GEeeMA55nM4rpww" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_X_p6wQ5GEeeMA55nM4rpww" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_X_p6ww5GEeeMA55nM4rpww" name="quote" type="_bMETwA5DEeeMA55nM4rpww" association="_X_pTsA5GEeeMA55nM4rpww">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fu5eYA5GEeeMA55nM4rpww"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fu7TkA5GEeeMA55nM4rpww" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_X_p6wg5GEeeMA55nM4rpww" name="car" type="_7oq-cA5CEeeMA55nM4rpww" association="_X_pTsA5GEeeMA55nM4rpww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_j4QgcA5GEeeMA55nM4rpww" memberEnd="_j4RHgg5GEeeMA55nM4rpww _j4RukA5GEeeMA55nM4rpww">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_j4RHgA5GEeeMA55nM4rpww" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_j4RHgQ5GEeeMA55nM4rpww" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_j4RukA5GEeeMA55nM4rpww" name="car" type="_7oq-cA5CEeeMA55nM4rpww" association="_j4QgcA5GEeeMA55nM4rpww">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lGHasA5GEeeMA55nM4rpww"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lGJP4A5GEeeMA55nM4rpww" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_j4RHgg5GEeeMA55nM4rpww" name="location" type="_WD3D0A5DEeeMA55nM4rpww" association="_j4QgcA5GEeeMA55nM4rpww"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_V10BUBOUEeeGRKy7rMLwEA" name="EManufacturer">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cK8IoBOaEeeGRKy7rMLwEA" name="Name"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dQT1QBOaEeeGRKy7rMLwEA" name="Logo"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_eWkSsBOaEeeGRKy7rMLwEA" name="Address"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_iKISoBOUEeeGRKy7rMLwEA" name="ETransactions">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_PPe-0BOaEeeGRKy7rMLwEA" name="TransactionDate"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_X3OqABOVEeeGRKy7rMLwEA" name="EAdditions">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7mM1oBOaEeeGRKy7rMLwEA" name="Type"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_btJysBOVEeeGRKy7rMLwEA" name="ECarType">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nKslUBObEeeGRKy7rMLwEA" name="SeatCapacity"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_q0eIYBObEeeGRKy7rMLwEA" name="LuggageCapacity"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vgmvEBOVEeeGRKy7rMLwEA" memberEnd="_vgpLUBOVEeeGRKy7rMLwEA _vgpyYBOVEeeGRKy7rMLwEA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vgn9MBOVEeeGRKy7rMLwEA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vgokQBOVEeeGRKy7rMLwEA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vgpyYBOVEeeGRKy7rMLwEA" name="etransactions" type="_iKISoBOUEeeGRKy7rMLwEA" association="_vgmvEBOVEeeGRKy7rMLwEA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_C1k_sBOWEeeGRKy7rMLwEA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_C1nb8BOWEeeGRKy7rMLwEA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vgpLUBOVEeeGRKy7rMLwEA" name="ecustomer" type="_vHLz0A5CEeeMA55nM4rpww" association="_vgmvEBOVEeeGRKy7rMLwEA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BeOLMBOWEeeGRKy7rMLwEA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BeeC0BOWEeeGRKy7rMLwEA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NT-RMBOWEeeGRKy7rMLwEA" memberEnd="_NT_fUhOWEeeGRKy7rMLwEA _NUB7kBOWEeeGRKy7rMLwEA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NT_fUBOWEeeGRKy7rMLwEA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NT_fUROWEeeGRKy7rMLwEA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NUB7kBOWEeeGRKy7rMLwEA" name="ecartype" type="_btJysBOVEeeGRKy7rMLwEA" association="_NT-RMBOWEeeGRKy7rMLwEA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aTwhYBOWEeeGRKy7rMLwEA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aUuKsBOWEeeGRKy7rMLwEA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NT_fUhOWEeeGRKy7rMLwEA" name="ecar" type="_7oq-cA5CEeeMA55nM4rpww" association="_NT-RMBOWEeeGRKy7rMLwEA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Xb8mwBOWEeeGRKy7rMLwEA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XcicoBOWEeeGRKy7rMLwEA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ORWfcBOWEeeGRKy7rMLwEA" memberEnd="_ORXGgROWEeeGRKy7rMLwEA _ORYUoBOWEeeGRKy7rMLwEA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ORWfcROWEeeGRKy7rMLwEA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ORXGgBOWEeeGRKy7rMLwEA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ORYUoBOWEeeGRKy7rMLwEA" name="emanufacturer" type="_V10BUBOUEeeGRKy7rMLwEA" association="_ORWfcBOWEeeGRKy7rMLwEA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ORXGgROWEeeGRKy7rMLwEA" name="ecar" type="_7oq-cA5CEeeMA55nM4rpww" association="_ORWfcBOWEeeGRKy7rMLwEA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_REGT4BOWEeeGRKy7rMLwEA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_REc5MBOWEeeGRKy7rMLwEA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_e5zfcBOWEeeGRKy7rMLwEA" memberEnd="_e50GghOWEeeGRKy7rMLwEA _e51UoBOWEeeGRKy7rMLwEA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_e50GgBOWEeeGRKy7rMLwEA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e50GgROWEeeGRKy7rMLwEA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_e51UoBOWEeeGRKy7rMLwEA" name="equote" type="_bMETwA5DEeeMA55nM4rpww" association="_e5zfcBOWEeeGRKy7rMLwEA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_npNfkBOWEeeGRKy7rMLwEA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nqOzQBOWEeeGRKy7rMLwEA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_e50GghOWEeeGRKy7rMLwEA" name="eadditions" type="_X3OqABOVEeeGRKy7rMLwEA" association="_e5zfcBOWEeeGRKy7rMLwEA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jJdWwBOWEeeGRKy7rMLwEA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jJucgBOWEeeGRKy7rMLwEA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_xYNfABOXEeeGRKy7rMLwEA" name="ECreditCard">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5SuzoBOZEeeGRKy7rMLwEA" name="CardNumber"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BC3IEBOaEeeGRKy7rMLwEA" name="ExpirationDate"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6ixxIBOXEeeGRKy7rMLwEA" memberEnd="_6iy_QBOXEeeGRKy7rMLwEA _6iy_QROXEeeGRKy7rMLwEA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6iyYMBOXEeeGRKy7rMLwEA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6iyYMROXEeeGRKy7rMLwEA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6iy_QROXEeeGRKy7rMLwEA" name="ecustomer" type="_vHLz0A5CEeeMA55nM4rpww" association="_6ixxIBOXEeeGRKy7rMLwEA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6iy_QBOXEeeGRKy7rMLwEA" name="ecreditcard" type="_xYNfABOXEeeGRKy7rMLwEA" association="_6ixxIBOXEeeGRKy7rMLwEA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tX9DsBOZEeeGRKy7rMLwEA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tX_f8BOZEeeGRKy7rMLwEA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_yj3H4BOZEeeGRKy7rMLwEA" memberEnd="_yj4WAhOZEeeGRKy7rMLwEA _yj49EBOZEeeGRKy7rMLwEA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yj4WABOZEeeGRKy7rMLwEA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yj4WAROZEeeGRKy7rMLwEA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_yj49EBOZEeeGRKy7rMLwEA" name="etransactions" type="_iKISoBOUEeeGRKy7rMLwEA" association="_yj3H4BOZEeeGRKy7rMLwEA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_yj4WAhOZEeeGRKy7rMLwEA" name="ecreditcard" type="_xYNfABOXEeeGRKy7rMLwEA" association="_yj3H4BOZEeeGRKy7rMLwEA"/>
+  </packagedElement>
+</uml:Model>
