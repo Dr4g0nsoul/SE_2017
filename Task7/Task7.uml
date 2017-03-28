@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_HeKlUBOfEee0IO3LukcX3w" name="RootElement">
   <packagedElement xmi:type="uml:Class" xmi:id="_YxGFsBOfEee0IO3LukcX3w" name="ECustomer"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_aKHuIBOfEee0IO3LukcX3w" name="EDatabase"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aKHuIBOfEee0IO3LukcX3w" name="EDatabase" visibility="public">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Q6uJ4BOgEee0IO3LukcX3w" name="Attribute1"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_bKzIABOfEee0IO3LukcX3w" name="EOrder"/>
 </uml:Model>
