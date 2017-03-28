@@ -4,8 +4,30 @@
     <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_4P4n0BOfEeeGRKy7rMLwEA" name="Transaction successfull" kind="exitPoint"/>
     <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_-gGosBOfEeeGRKy7rMLwEA" name="Abort" kind="exitPoint"/>
     <region xmi:type="uml:Region" xmi:id="_EJcFMBOfEeeGRKy7rMLwEA" name="Region1">
-      <subvertex xmi:type="uml:Pseudostate" xmi:id="_jb_iIBOfEeeGRKy7rMLwEA" name="Initial state"/>
-      <subvertex xmi:type="uml:State" xmi:id="_nXqGcBOfEeeGRKy7rMLwEA" name="Wrong_credit_card_information"/>
+      <transition xmi:type="uml:Transition" xmi:id="_rLx6gBOuEeelPIKtfCfbCw" source="_jb_iIBOfEeeGRKy7rMLwEA" target="_eJVp0BOsEeelPIKtfCfbCw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_vcfhwBOuEeelPIKtfCfbCw" source="_eJVp0BOsEeelPIKtfCfbCw" target="_eYGCEBOtEeelPIKtfCfbCw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_SZ-_YBOvEeelPIKtfCfbCw" name="no" source="_eYGCEBOtEeelPIKtfCfbCw" target="_kQ-hABOtEeelPIKtfCfbCw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_YoizYBOvEeelPIKtfCfbCw" name="yes" source="_eYGCEBOtEeelPIKtfCfbCw" target="_mvOsIBOtEeelPIKtfCfbCw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_lZRT4BOvEeelPIKtfCfbCw" source="__6RYQBOtEeelPIKtfCfbCw" target="_4P4n0BOfEeeGRKy7rMLwEA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_mnQxABOvEeelPIKtfCfbCw" name="transaction succesfull" source="_z0kVQBOuEeelPIKtfCfbCw" target="__6RYQBOtEeelPIKtfCfbCw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_qUlXUBOvEeelPIKtfCfbCw" source="_mvOsIBOtEeelPIKtfCfbCw" target="_z0kVQBOuEeelPIKtfCfbCw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_8CC3kBOvEeelPIKtfCfbCw" source="_45B4MBOvEeelPIKtfCfbCw" target="_-gGosBOfEeeGRKy7rMLwEA"/>
+      <transition xmi:type="uml:Transition" xmi:id="_2YmtYBOwEeelPIKtfCfbCw" name="Log-in" source="_kQ-hABOtEeelPIKtfCfbCw" target="_xmUDEBOwEeelPIKtfCfbCw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_5WMf4BOwEeelPIKtfCfbCw" name="yes" source="_xmUDEBOwEeelPIKtfCfbCw" target="_mvOsIBOtEeelPIKtfCfbCw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_9HfnQBOwEeelPIKtfCfbCw" name="no" source="_xmUDEBOwEeelPIKtfCfbCw" target="_kQ-hABOtEeelPIKtfCfbCw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_9y104BOxEeelPIKtfCfbCw" name="incorrect credit card information" source="_z0kVQBOuEeelPIKtfCfbCw" target="_mvOsIBOtEeelPIKtfCfbCw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_FaOdABOyEeelPIKtfCfbCw" name="cancel" source="_mvOsIBOtEeelPIKtfCfbCw" target="_45B4MBOvEeelPIKtfCfbCw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_KjUdwBOyEeelPIKtfCfbCw" name="cancel" source="_kQ-hABOtEeelPIKtfCfbCw" target="_45B4MBOvEeelPIKtfCfbCw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_N3rxgBOyEeelPIKtfCfbCw" name="cancel" source="_eJVp0BOsEeelPIKtfCfbCw" target="_45B4MBOvEeelPIKtfCfbCw"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_jb_iIBOfEeeGRKy7rMLwEA" name="Quote_selected"/>
+      <subvertex xmi:type="uml:State" xmi:id="_eJVp0BOsEeelPIKtfCfbCw" name="extras_restrictions_and_pickup_location_added"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_eYGCEBOtEeelPIKtfCfbCw" name="Logged in?" kind="fork"/>
+      <subvertex xmi:type="uml:State" xmi:id="_kQ-hABOtEeelPIKtfCfbCw" name="wait_for_login"/>
+      <subvertex xmi:type="uml:State" xmi:id="_mvOsIBOtEeelPIKtfCfbCw" name="choosing_credit_card"/>
+      <subvertex xmi:type="uml:State" xmi:id="__6RYQBOtEeelPIKtfCfbCw" name="showing_rental_confirmation_number"/>
+      <subvertex xmi:type="uml:State" xmi:id="_z0kVQBOuEeelPIKtfCfbCw" name="executing_transaction"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_45B4MBOvEeelPIKtfCfbCw" name="" kind="join"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_xmUDEBOwEeelPIKtfCfbCw" name="Log-in successfull?" kind="fork"/>
     </region>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xDYk4BOfEeeGRKy7rMLwEA">
