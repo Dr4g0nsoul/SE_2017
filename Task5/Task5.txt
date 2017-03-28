@@ -9,3 +9,5 @@ customer enters age
 Search Results
 search results include details of vehicle types, price(online booking / telephone booking)
 ---> with this info customer is able to request more detailed information about vehicle. (models, seating capacity, luggage capacity) 
+Customer enters optional information such as age restrictions, fuel condition, insurance, pick up instruction etc.
+----> after that customer has to enter personal information before placing the order.
