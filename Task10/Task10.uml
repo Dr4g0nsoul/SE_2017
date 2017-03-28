@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_EIV5ABOfEeeGRKy7rMLwEA" name="RootElement">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_EI-yMBOfEeeGRKy7rMLwEA" name="EBooking">
+    <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_4P4n0BOfEeeGRKy7rMLwEA" name="Transaction successfull" kind="exitPoint"/>
+    <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_-gGosBOfEeeGRKy7rMLwEA" name="Abort" kind="exitPoint"/>
+    <region xmi:type="uml:Region" xmi:id="_EJcFMBOfEeeGRKy7rMLwEA" name="Region1">
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_jb_iIBOfEeeGRKy7rMLwEA" name="Initial state"/>
+      <subvertex xmi:type="uml:State" xmi:id="_nXqGcBOfEeeGRKy7rMLwEA" name="Wrong_credit_card_information"/>
+    </region>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xDYk4BOfEeeGRKy7rMLwEA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xDYk4ROfEeeGRKy7rMLwEA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
