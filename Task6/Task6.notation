@@ -14,7 +14,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2h8cIRObEee0IO3LukcX3w" x="42" y="31" width="16" height="278"/>
         </children>
         <element xmi:type="uml:Lifeline" href="Task6.uml#_OV12gBOZEee0IO3LukcX3w"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OV6H8ROZEee0IO3LukcX3w" x="111" y="5" width="100" height="3852"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OV6H8ROZEee0IO3LukcX3w" x="115" y="5" width="100" height="3852"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_e6vMMBOZEee0IO3LukcX3w" type="Lifeline_Shape">
         <children xmi:type="notation:DecorationNode" xmi:id="_e6vzQBOZEee0IO3LukcX3w" type="Lifeline_NameLabel"/>

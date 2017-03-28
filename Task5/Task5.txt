@@ -4,7 +4,7 @@ Search Request
 customer requests quote for renting a car
 customer enters a pick-up and drop off location
 customer enters pick-up and drop off dates
-customer enters age
+customer enters age 
 --> all this is needed to get a list of available car types. (search criteria)
 Search Results
 search results include details of vehicle types, price(online booking / telephone booking)

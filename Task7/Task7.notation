@@ -24,7 +24,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YxIiAROfEee0IO3LukcX3w"/>
     </children>
     <element xmi:type="uml:Class" href="Task7.uml#_YxGFsBOfEee0IO3LukcX3w"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YxH64ROfEee0IO3LukcX3w" x="285" y="58"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YxH64ROfEee0IO3LukcX3w" x="313" y="67"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_aKI8QBOfEee0IO3LukcX3w" type="Class_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_aKI8QhOfEee0IO3LukcX3w" type="Class_NameLabel"/>
