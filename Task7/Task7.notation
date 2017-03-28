@@ -80,7 +80,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bKzvIxOfEee0IO3LukcX3w"/>
     </children>
     <element xmi:type="uml:Class" href="Task7.uml#_bKzIABOfEee0IO3LukcX3w"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bKzvEROfEee0IO3LukcX3w" x="654" y="65"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bKzvEROfEee0IO3LukcX3w" x="752" y="68"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_HeOPsROfEee0IO3LukcX3w" name="diagram_compatibility_version" stringValue="1.2.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_HeOPshOfEee0IO3LukcX3w"/>
