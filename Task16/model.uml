@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_VtPDIBRPEee0IpEjZMJ2wQ" name="RootElement">
+  <packagedElement xmi:type="uml:Component" xmi:id="_aH0ioBRQEee0IpEjZMJ2wQ" name="Customer">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_H4w7wBRREee0IpEjZMJ2wQ" client="_aH0ioBRQEee0IpEjZMJ2wQ" supplier="_ujR6MBRQEee0IpEjZMJ2wQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_ujR6MBRQEee0IpEjZMJ2wQ" name="RentalService">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_eI5uQBRXEeeQY9TDgOYXhQ" client="_ujR6MBRQEee0IpEjZMJ2wQ" supplier="_wvJfYBRREee0IpEjZMJ2wQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_sKjrIBRXEeeQY9TDgOYXhQ" client="_ujR6MBRQEee0IpEjZMJ2wQ" supplier="_jM6asBRXEeeQY9TDgOYXhQ"/>
+    <realization xmi:type="uml:ComponentRealization" xmi:id="_J2rVwBRYEeeQY9TDgOYXhQ" name="provides" client="_xrqjQBRXEeeQY9TDgOYXhQ" supplier="_ujR6MBRQEee0IpEjZMJ2wQ" realizingClassifier="_xrqjQBRXEeeQY9TDgOYXhQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_wvJfYBRREee0IpEjZMJ2wQ" name="Search">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_O22EABRYEeeQY9TDgOYXhQ" client="_wvJfYBRREee0IpEjZMJ2wQ" supplier="_Nps7cBRYEeeQY9TDgOYXhQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_jM6asBRXEeeQY9TDgOYXhQ" name="Booking">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_PejkQBRYEeeQY9TDgOYXhQ" client="_jM6asBRXEeeQY9TDgOYXhQ" supplier="_Nps7cBRYEeeQY9TDgOYXhQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_xrqjQBRXEeeQY9TDgOYXhQ" name="Owner"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_Nps7cBRYEeeQY9TDgOYXhQ" name="Database"/>
+</uml:Model>
