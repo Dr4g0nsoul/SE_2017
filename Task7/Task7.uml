@@ -18,13 +18,17 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_5J4okBO4EeeWIN92rmj6CA" name="getRequest"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_7wCygBO4EeeWIN92rmj6CA" name="setOptionals"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="__WFFEBO4EeeWIN92rmj6CA" name="setOrder"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_APcWABO5EeeWIN92rmj6CA" name="returnOrderData"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_jh-v8BRQEeeMsbi4hLetbg" name="lockCar"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_nSw58BRQEeeMsbi4hLetbg" name="returnOrderData"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_euBNwBO4EeeWIN92rmj6CA" memberEnd="_euDC8BO4EeeWIN92rmj6CA _euDC8RO4EeeWIN92rmj6CA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_euB00BO4EeeWIN92rmj6CA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_euCb4BO4EeeWIN92rmj6CA" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_euDC8RO4EeeWIN92rmj6CA" name="eclient" type="__JhFMBO3EeeWIN92rmj6CA" association="_euBNwBO4EeeWIN92rmj6CA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_euDC8RO4EeeWIN92rmj6CA" name="eclient" type="__JhFMBO3EeeWIN92rmj6CA" association="_euBNwBO4EeeWIN92rmj6CA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_u7m6oBRQEeeMsbi4hLetbg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u7u2cBRQEeeMsbi4hLetbg" value="1"/>
+    </ownedEnd>
     <ownedEnd xmi:type="uml:Property" xmi:id="_euDC8BO4EeeWIN92rmj6CA" name="controller" type="_JEDbsBO4EeeWIN92rmj6CA" association="_euBNwBO4EeeWIN92rmj6CA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_hFFy0BO4EeeWIN92rmj6CA" memberEnd="_hFHA8hO4EeeWIN92rmj6CA _hFHoABO4EeeWIN92rmj6CA">
