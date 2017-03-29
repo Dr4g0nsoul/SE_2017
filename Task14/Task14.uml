@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_PN-OwBRREeeMsbi4hLetbg" name="RootElement">
-  <packagedElement xmi:type="uml:Interaction" xmi:id="_POGKkBRREeeMsbi4hLetbg" name="Quotation"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_POGKkBRREeeMsbi4hLetbg" name="Quotation">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_JcXNwBRXEeeMsbi4hLetbg">
+      <body>blackboard info for task:    http://prntscr.com/epsnav</body>
+    </ownedComment>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_FuJhgBRVEeeMsbi4hLetbg" name="Client"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_H7_SEBRVEeeMsbi4hLetbg" name="Login"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_JGTJEBRVEeeMsbi4hLetbg" name="Search"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_Jzm7ABRVEeeMsbi4hLetbg" name="Booking"/>
+  </packagedElement>
 </uml:Model>

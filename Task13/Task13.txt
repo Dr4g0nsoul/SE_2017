@@ -1,0 +1,18 @@
+Explain model in Task12. Describe purpose of each message. 
+Identify signatures (arguments and their types) and return types of all methods.
+
+-PDisplay-
+getUserInput: get data from the input of the user. data input of the interface. 
+getQuote: start computing quotation. [input: login data, car data, time/date, optionals;]
+displayQuote: final quotation for the client. [return: big string with data]
+-CActioner-
+retrieveAvailableCars: uses query data to get all available cars. [input: user request string]
+calcTotalCost: uses query data to calculate the final costs for the user. [return: flaot containing price]
+-MBroker-
+query: get data from the database. [input: query string]
+mapVehicles: map available/alreadyinuse vehicles. [return: list with available vehicles]
+closeResult: close data query. 
+-FReader-
+used to read the Data from the Database, has to query data. output/input: search requests, login data, booking data.
+-EVehicle-
+used to get available vehicles (for booking/search requests). output/input: search requests
