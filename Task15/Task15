@@ -1,0 +1,6 @@
+Table Customer:
+	cid: int <PK>
+	cname: varchar(30)
+	csurname: varchar(30)
+	cmail: vatchar(50) <unique>
+	cpassword: varchar(30)
