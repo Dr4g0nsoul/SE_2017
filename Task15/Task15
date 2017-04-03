@@ -1,6 +1,63 @@
 Table Customer:
-	cid: int <PK>
+	c_id: int <PK>
 	cname: varchar(30)
 	csurname: varchar(30)
 	cmail: vatchar(50) <unique>
 	cpassword: varchar(30)
+
+Table Transactions:
+	t_id: int <PK>
+	tdate: date
+	cr_number: int <FK>(References CreditCard)
+	
+Table CreditCard:
+	cr_number: int <PK>
+	cr_expiration_date: date
+	c_id: int <FK>(References Customer)
+	
+Table Booking:
+	b_id: int <PK>
+	b_date_of_order: date
+	q_id: int <FK> (References Quote)
+	
+Table Quote:
+	q_id: int <PK>
+	q_price: decimal(7,2)
+	
+Table QuoteAdditions:
+	q_id: int <FK>(References Quote)
+	a_id: int <FK>(References Additions)
+	Primary Key (q_id, a_id)
+	
+Table Additions:
+	a_id: int <PK>
+	a_type: varchar(200)
+	
+Table Car:
+	c_plate: int <PK>
+	c_name: varchar(200)
+	m_id: int <FK>(References Manufacturer)
+	l_id: int <FK>(References Location)
+	q_id: int <FK>(References Quote)
+	
+Table Location:
+	l_id: int <PK>
+	l_age: int
+	l_isDorpOff: boolean
+	l_isPickUp: boolean
+	
+Table Manufacturer:
+	m_id: int <PK>
+	m_name: varchar(200)
+	m_logo: varchar(200)
+	m_address: varchar(200)
+	
+Table CarTypeBetween:
+	c_id: int <FK>(References Car)
+	ct_id: int <FK>(References CarType)
+
+Table CarType:
+	ct_id: int <PK>
+	ct_seat_capacity: int <PK>
+	ct_luggage_capacity: int <PK>
+	

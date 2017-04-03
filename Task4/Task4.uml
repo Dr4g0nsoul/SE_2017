@@ -33,10 +33,13 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_X_p6wQ5GEeeMA55nM4rpww" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_X_p6ww5GEeeMA55nM4rpww" name="quote" type="_bMETwA5DEeeMA55nM4rpww" association="_X_pTsA5GEeeMA55nM4rpww">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fu5eYA5GEeeMA55nM4rpww"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fu7TkA5GEeeMA55nM4rpww" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fu5eYA5GEeeMA55nM4rpww" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fu7TkA5GEeeMA55nM4rpww" value="1"/>
     </ownedEnd>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_X_p6wg5GEeeMA55nM4rpww" name="car" type="_7oq-cA5CEeeMA55nM4rpww" association="_X_pTsA5GEeeMA55nM4rpww"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_X_p6wg5GEeeMA55nM4rpww" name="car" type="_7oq-cA5CEeeMA55nM4rpww" association="_X_pTsA5GEeeMA55nM4rpww">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OXTMEBicEeeQTJ4BOXcilw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OXZ5wBicEeeQTJ4BOXcilw" value="*"/>
+    </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_j4QgcA5GEeeMA55nM4rpww" memberEnd="_j4RHgg5GEeeMA55nM4rpww _j4RukA5GEeeMA55nM4rpww">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_j4RHgA5GEeeMA55nM4rpww" source="org.eclipse.papyrus">
