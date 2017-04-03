@@ -6,27 +6,27 @@
       <children xmi:type="notation:Shape" xmi:id="_FuMk0BRVEeeMsbi4hLetbg" type="Lifeline_Shape">
         <children xmi:type="notation:DecorationNode" xmi:id="_FuMk0hRVEeeMsbi4hLetbg" type="Lifeline_NameLabel"/>
         <element xmi:type="uml:Lifeline" href="Task14.uml#_FuJhgBRVEeeMsbi4hLetbg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FuMk0RRVEeeMsbi4hLetbg" x="54" y="10" width="100" height="695"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FuMk0RRVEeeMsbi4hLetbg" x="54" y="10" width="100" height="693"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_H8BHQBRVEeeMsbi4hLetbg" type="Lifeline_Shape">
         <children xmi:type="notation:DecorationNode" xmi:id="_H8BHQhRVEeeMsbi4hLetbg" type="Lifeline_NameLabel"/>
         <element xmi:type="uml:Lifeline" href="Task14.uml#_H7_SEBRVEeeMsbi4hLetbg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8BHQRRVEeeMsbi4hLetbg" x="270" y="5" width="100" height="700"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8BHQRRVEeeMsbi4hLetbg" x="270" y="5" width="100" height="698"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_JGU-QBRVEeeMsbi4hLetbg" type="Lifeline_Shape">
         <children xmi:type="notation:DecorationNode" xmi:id="_JGVlUBRVEeeMsbi4hLetbg" type="Lifeline_NameLabel"/>
         <element xmi:type="uml:Lifeline" href="Task14.uml#_JGTJEBRVEeeMsbi4hLetbg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JGU-QRRVEeeMsbi4hLetbg" x="428" y="5" width="100" height="700"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JGU-QRRVEeeMsbi4hLetbg" x="428" y="5" width="100" height="698"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_JzowMBRVEeeMsbi4hLetbg" type="Lifeline_Shape">
         <children xmi:type="notation:DecorationNode" xmi:id="_JzowMhRVEeeMsbi4hLetbg" type="Lifeline_NameLabel"/>
         <element xmi:type="uml:Lifeline" href="Task14.uml#_Jzm7ABRVEeeMsbi4hLetbg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JzowMRRVEeeMsbi4hLetbg" x="618" y="5" width="100" height="700"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JzowMRRVEeeMsbi4hLetbg" x="618" y="5" width="100" height="698"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_JccGQBRXEeeMsbi4hLetbg" type="Comment_Shape">
         <children xmi:type="notation:DecorationNode" xmi:id="_JccGQhRXEeeMsbi4hLetbg" type="Comment_BodyLabel"/>
         <element xmi:type="uml:Comment" href="Task14.uml#_JcXNwBRXEeeMsbi4hLetbg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JccGQRRXEeeMsbi4hLetbg" x="123" y="81"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JccGQRRXEeeMsbi4hLetbg" x="117" y="95"/>
       </children>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_POJN5BRREeeMsbi4hLetbg"/>
     </children>
