@@ -26,7 +26,7 @@
       <children xmi:type="notation:Shape" xmi:id="_JccGQBRXEeeMsbi4hLetbg" type="Comment_Shape">
         <children xmi:type="notation:DecorationNode" xmi:id="_JccGQhRXEeeMsbi4hLetbg" type="Comment_BodyLabel"/>
         <element xmi:type="uml:Comment" href="Task14.uml#_JcXNwBRXEeeMsbi4hLetbg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JccGQRRXEeeMsbi4hLetbg" x="117" y="95"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JccGQRRXEeeMsbi4hLetbg" x="123" y="84"/>
       </children>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_POJN5BRREeeMsbi4hLetbg"/>
     </children>
