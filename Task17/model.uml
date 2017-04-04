@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_2hI-EBkxEeeS-65Ad21MIw" name="RootElement">
+  <packagedElement xmi:type="uml:Node" xmi:id="_rSqBgBkzEeeS-65Ad21MIw" name="Tomcat Server">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Q4IGoBk3EeeS-65Ad21MIw" name="db server" type="_CM0v0Bk3EeeS-65Ad21MIw" association="_Q3zWgBk3EeeS-65Ad21MIw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rc034Bk4EeeS-65Ad21MIw" name="client" type="_oJyZ0Bk4EeeS-65Ad21MIw" association="_rcyboBk4EeeS-65Ad21MIw"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_7b6csBk2EeeS-65Ad21MIw" name="RentalService.jar"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_HW5WEBk5EeeS-65Ad21MIw" name="Rental Web Site"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_CM0v0Bk3EeeS-65Ad21MIw" name="DB Server">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_IfavQBk3EeeS-65Ad21MIw" name="MySQL Server"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_Q3zWgBk3EeeS-65Ad21MIw" memberEnd="_Q4IGoBk3EeeS-65Ad21MIw _Q4JUwBk3EeeS-65Ad21MIw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q375YBk3EeeS-65Ad21MIw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q39ukBk3EeeS-65Ad21MIw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Q4JUwBk3EeeS-65Ad21MIw" name="tomcat server" type="_rSqBgBkzEeeS-65Ad21MIw" association="_Q3zWgBk3EeeS-65Ad21MIw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_oJyZ0Bk4EeeS-65Ad21MIw" name="Client"/>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_rcyboBk4EeeS-65Ad21MIw" memberEnd="_rc034Bk4EeeS-65Ad21MIw _rc2GABk4EeeS-65Ad21MIw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rc0Q0Bk4EeeS-65Ad21MIw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rc0Q0Rk4EeeS-65Ad21MIw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rc2GABk4EeeS-65Ad21MIw" name="tomcat server" type="_rSqBgBkzEeeS-65Ad21MIw" association="_rcyboBk4EeeS-65Ad21MIw"/>
+  </packagedElement>
+</uml:Model>
