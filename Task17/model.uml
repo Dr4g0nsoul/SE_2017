@@ -4,7 +4,7 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Q4IGoBk3EeeS-65Ad21MIw" name="db server" type="_CM0v0Bk3EeeS-65Ad21MIw" association="_Q3zWgBk3EeeS-65Ad21MIw"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_rc034Bk4EeeS-65Ad21MIw" name="client" type="_oJyZ0Bk4EeeS-65Ad21MIw" association="_rcyboBk4EeeS-65Ad21MIw"/>
     <nestedClassifier xmi:type="uml:Artifact" xmi:id="_7b6csBk2EeeS-65Ad21MIw" name="RentalService.jar"/>
-    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_HW5WEBk5EeeS-65Ad21MIw" name="Rental Web Site"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_HW5WEBk5EeeS-65Ad21MIw" name="Rental Website"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Node" xmi:id="_CM0v0Bk3EeeS-65Ad21MIw" name="DB Server">
     <nestedClassifier xmi:type="uml:Artifact" xmi:id="_IfavQBk3EeeS-65Ad21MIw" name="MySQL Server"/>
@@ -15,7 +15,9 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_Q4JUwBk3EeeS-65Ad21MIw" name="tomcat server" type="_rSqBgBkzEeeS-65Ad21MIw" association="_Q3zWgBk3EeeS-65Ad21MIw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Node" xmi:id="_oJyZ0Bk4EeeS-65Ad21MIw" name="Client"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_oJyZ0Bk4EeeS-65Ad21MIw" name="Client">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_bCdsUBk6EeeCdeiMzXnWzg" name="Web browser"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_rcyboBk4EeeS-65Ad21MIw" memberEnd="_rc034Bk4EeeS-65Ad21MIw _rc2GABk4EeeS-65Ad21MIw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rc0Q0Bk4EeeS-65Ad21MIw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rc0Q0Rk4EeeS-65Ad21MIw" key="nature" value="UML_Nature"/>
