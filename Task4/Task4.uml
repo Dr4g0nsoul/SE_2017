@@ -37,8 +37,8 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fu7TkA5GEeeMA55nM4rpww" value="1"/>
     </ownedEnd>
     <ownedEnd xmi:type="uml:Property" xmi:id="_X_p6wg5GEeeMA55nM4rpww" name="car" type="_7oq-cA5CEeeMA55nM4rpww" association="_X_pTsA5GEeeMA55nM4rpww">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OXTMEBicEeeQTJ4BOXcilw"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OXZ5wBicEeeQTJ4BOXcilw" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OXTMEBicEeeQTJ4BOXcilw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OXZ5wBicEeeQTJ4BOXcilw" value="1"/>
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_j4QgcA5GEeeMA55nM4rpww" memberEnd="_j4RHgg5GEeeMA55nM4rpww _j4RukA5GEeeMA55nM4rpww">

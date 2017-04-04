@@ -23,6 +23,7 @@ Table Booking:
 Table Quote:
 	q_id: int <PK>
 	q_price: decimal(7,2)
+	c_id: int <FK>(References Car)
 	
 Table QuoteAdditions:
 	q_id: int <FK>(References Quote)
@@ -38,7 +39,6 @@ Table Car:
 	c_name: varchar(200)
 	m_id: int <FK>(References Manufacturer)
 	l_id: int <FK>(References Location)
-	q_id: int <FK>(References Quote)
 	
 Table Location:
 	l_id: int <PK>
